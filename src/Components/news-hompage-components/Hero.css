@@ -1,0 +1,36 @@
+.Hero_Container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Heo_Left {
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.Hero_Right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: whitesmoke;
+    background-color: black;
+    width: 30%;
+    padding: 2rem;
+}
+
+.Hero_Right h1 {
+    font-size: 2rem;
+    color: rebeccapurple;
+}
+
+.Hero_Grid {
+    display: grid;
+    grid-template-columns: 25% 35%;
+    justify-content: space-between;
+}
+
+.Hero_Title {
+    font-size: 1.8rem;
+}

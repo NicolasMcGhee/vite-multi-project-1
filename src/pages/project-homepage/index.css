@@ -1,0 +1,20 @@
+.Home_Container {
+    max-width: 2000px;
+    height: 100vh;
+    margin-inline: auto;
+    display: grid;
+    place-content: center;
+
+}
+
+.Home_Links {
+    background-color: slategray;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: grid;
+     gap: 2rem;
+}
+
+.Home_Links a:hover {
+    color: purple;
+}
