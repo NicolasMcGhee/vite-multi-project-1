@@ -14,7 +14,7 @@ export default function Hero() {
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
               odit ad quos maiores perspiciatis, repellat impedit numquam autem
-              tempore aliquam id, quam at harum assumenda!
+              tempore aliquam id, quam at harum assumda!
             </p>
             <button>READ MORE</button>
           </div>
