@@ -16,7 +16,7 @@ export default function Hero() {
               odit ad quos maiores perspiciatis, repellat impedit numquam autem
               tempore aliquam id, quam at harum assumda!
             </p>
-            <button>READ MORE</button>
+            <button>READ MOR</button>
           </div>
         </div>
       </div>
