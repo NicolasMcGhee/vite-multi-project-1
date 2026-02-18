@@ -11,10 +11,19 @@ export default function Navbar() {
     <nav className="Navbar_Container">
       <img src={Logo} alt="" />
       <div>
-        <img className="Navbar_MenuIcon" width={40} src={Menu_Open} onClick={() => setActive(!active)} />
+        <img
+          className="Navbar_MenuIcon"
+          width={40}
+          src={Menu_Open}
+          onClick={() => setActive(!active)}
+        />
         <ul className={`Navbar_List ${active ? "nav_Show" : ""}`}>
-          <img className="Navbar_MenuIcon" width={40} src={Menu_Close} onClick={() => setActive(!active)} />
-
+          <img
+            className="Navbar_MenuIcon"
+            width={40}
+            src={Menu_Close}
+            onClick={() => setActive(!active)}
+          />
           <li>Home</li>
           <li>News</li>
           <li>Popular</li>
