@@ -1,6 +1,10 @@
 .Apparel_Container {
   height: 100vh;
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
+}
+
+.Apparel_Logo {
+  padding-bottom: 2rem;
 }
 
 .Apparel_Main {
@@ -8,23 +12,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
+  /* position: relative; */
+  gap: 2rem;
 }
 
 .Apparel_MainLeft {
+  /* border: 1px solid red; */
   display: flex;
-  gap: 2rem;
-  width: 60%;
-  height: 50%;
-  border: 1px solid red;
-  justify-content: left;
   flex-direction: column;
+  gap: 2rem;
   align-items: center;
-  justify-content: center;
 }
 
 .Apparel_MainTitle {
+  width: 50%;
   font-size: 3rem;
+  margin: 0 auto;
 }
 
 .Apparel_Highlight {
@@ -41,13 +44,30 @@
 }
 
 .Apparel_MainRight {
-  /* position: absolute;
-  top: 0;
-  right: 0; */
   background-image: url("../../../public/apparel-images/hero-desktop.jpg");
   width: 50%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 100vh;
+}
+
+@media (width < 1000px) {
+  .Apparel_Main {
+    flex-direction: column-reverse;
+  }
+
+  .Apparel_MainLeft {
+    padding: 0 1rem;
+  }
+
+  .Apparel_MainTitle {
+    font-size: 1.5rem;
+  }
+
+  .Apparel_MainRight {
+    width: 100%;
+    background-size: fill;
+    background-position: top;
+  }
 }

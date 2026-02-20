@@ -1,15 +1,19 @@
 import React from "react";
 import "./index.css";
 import Hero from "/apparel-images/hero-desktop.jpg";
+import Logo from '/apparel-images/logo.svg'
 
 export default function ApparelHomepage() {
   return (
     <div className="Apparel_Container">
+      
       <div className="Apparel_Main">
         {/* Left */}
         <div className="Apparel_MainLeft">
           {/* Title - Left */}
+          
           <div className="Apparel_MainTitle">
+            <img src={Logo} alt="" className="Apparel_Logo"/>
             <h1 className="Apparel_Highlight Apparel_LightWeight">WE'RE</h1>
             <h1>COMING</h1>
             <h1>SOON</h1>
