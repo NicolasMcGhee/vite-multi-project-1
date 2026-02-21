@@ -5,9 +5,9 @@ import HeroBackground from "/agency-images/desktop/image-header.jpg";
 export default function Hero() {
   return (
     <div className="agencyHeroContainer">
-      <img src={HeroBackground} alt="" />
+      <img src={HeroBackground} alt=""/>
       <div className="agencyNavbar">
-        <div className="flex">
+        <div className="agencyNavFlex">
           <div>IAMGE</div>
           <div className="agencyNavItems">
             <li>home</li>

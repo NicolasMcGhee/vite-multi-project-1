@@ -1,12 +1,15 @@
-import React from 'react'
-import './index.css'
-import Hero from '../../Components/agency-homepage-components/Hero'
-import Test from '../../Components/agency-homepage-components/Test'
+import React from "react";
+import "./index.css";
+import Hero from "../../Components/agency-homepage-components/Hero";
+import Transform from "../../Components/agency-homepage-components/Transform";
+
 export default function AgencyHomepage() {
   return (
-    <div className='AgencyBackground'>
+    <div>
       <Hero />
-      <Test />
+      <Transform />
+      <Transform flip="true"/>
+      <Transform />
     </div>
-  )
+  );
 }
